@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PROYECTO FINAL FRONT END</title>
+
+</head>
+
+<body>
+        <header>
+            <div>
+                <img src="imagenes/logoTeam.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="">Pricing</a></li>
+                    <li> <a href="">Product</a></li>
+                    <li> <a href="">About Us</a></li>
+                    <li> <a href="">Careers</a></li>
+                    <li> <a href="">Community</a></li>
+                </ul>
+            </nav>
+            <div>
+                
+                <button> <a class="button_orange" href=""> Get Started </a>  </button>
+                
+            </div>
+            <div class="hamburguesa">
+                <img src="imagenes/icon-hamburger.svg" alt="hamburguesa">
+            </div>
+        </header>    
+<main>
+
+    <section class="home">
+        <div class="frase_home">
+            <h1> Bring everyone
+                together to build
+                better products.
+            </h1>
+            <p> 
+                Manage makes it simple for software teams
+                to plan day-to-day tasks while keeping the 
+                large team goals in view 
+            </p>
+           
+            <button> <a class="button_orange" href=""> Get Started </a>  </button>
+
+
+
+
+        </div>
+        
+        <div class="ilustracion">
+            <img class="ilustracion1" src="imagenes/team2.png" alt="ilustracion">
+            <img class="ilustracion2" src="imagenes/Ilustracion2.png" alt="Ilustracion2">
+        </div>
+
+    </section>
+
+
+    <section class="sobre_nosotros">
+
+        <div class="frame_left">
+            <h2>
+                What´s different about
+                Manage? 
+            </h2>
+            <p>Manage provides all the functionality your
+                teas needs, without the complexity. 
+                Our software is tailor-made for modern
+                digital product teams
+            </p>
+
+        </div>
+    
+        <article>
+            
+            <div class="frame_rigth">
+                <button class="botton">  01  </button>   
+                <h5 class="titulo_frame"> Track company-wide progress</h5>
+            </div>    
+                <p class="parrafo_frame">
+                    See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                </p>
+                
+                <div class="frame_rigth">
+                    <button class="botton">  02  </button>   
+                    <h5 class="titulo_frame"> Advance built-in reports</h5>
+                </div>    
+                    <p class="parrafo_frame"> 
+                        Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                    </p>
+                <div class="frame_rigth">
+                    <button class="botton">  03  </button>   
+                    <h5 class="titulo_frame">Everything you need in one place</h5>
+                </div>    
+                    <p class="parrafo_frame">
+                        Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                    </p>
+                        
+        </article>
+
+    </section>        
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+          <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+          <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
+        </ul>
+    
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+          <!-- Iniciar Sesion -->
+          <div id="iniciar-sesion">
+            <h1>Iniciar Sesión</h1>
+            <form action="#" method="post">
+              <div class="contenedor-input">
+                <label>
+                  Usuario <span class="req">*</span>
+                </label>
+                <input type="text" required>
+              </div>
+    
+              <div class="contenedor-input">
+                <label>
+                  Contraseña <span class="req">*</span>
+                </label>
+                <input type="password" required>
+              </div>
+              <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+              <input type="submit" class="button button-block" value="Iniciar Sesión">
+            </form>
+          </div>
+    
+          <!-- Registrarse -->
+          <div id="registrarse">
+            <h1>Registrarse</h1>
+            <form action="#" method="post">
+              <div class="fila-arriba">
+                <div class="contenedor-input">
+                  <label>
+                    Nombre <span class="req">*</span>
+                  </label>
+                  <input type="text" required>
+                </div>
+    
+                <div class="contenedor-input">
+                  <label>
+                    Apellido <span class="req">*</span>
+                  </label>
+                  <input type="text" required>
+                </div>
+              </div>
+              <div class="contenedor-input">
+                <label>
+                  Usuario <span class="req">*</span>
+                </label>
+                <input type="text" required>
+              </div>
+              <div class="contenedor-input">
+                <label>
+                  Email <span class="req">*</span>
+                </label>
+                <input type="email" required>
+              </div>
+              <div class="contenedor-input">
+                <label>
+                  Contraseña <span class="req">*</span>
+                </label>
+                <input type="password" required>
+              </div>
+    
+              <div class="contenedor-input">
+                <label>
+                  Repetir Contraseña <span class="req">*</span>
+                </label>
+                <input type="password" required>
+              </div>
+    
+              <input type="submit" class="button button-block" value="Registrarse">
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <script src="js/jquery.js"></script>
+      <script src="js/main.js"></script>    
+
+</section>
+
+    <div class="button_testimonios">
+    
+        <button> <a class="button_orange testimonio" href=""> Get Started </a>  </button>
+    
+    </div>
+    
+<section class="rectangulo">
+    <div>
+        <h2> 
+            WE BUILD THE FUTURE YOU'RE IN!
+        </h2>
+        
+    </div>
+    
+    <div class="button_rectangulo">
+    <a> Get Started </a>  
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+   <section class="footer"> 
+    
+    <section class="iconos">
+    <div class="logo_footer"> 
+            <img src="imagenes/logoTeam.png" alt="Logo-footer">
+    </div>
+
+        <div class="iconos_redes">  
+
+        <img src="imagenes/Iconos-redes.png" alt="">
+       
+       
+        </div>
+    </section>
+    
+  <div>
+        <nav class="lista_footer">
+        <ul>
+            <li> <a href="#"> CONTACT US</a> </li>
+            <li> <a href="#"> US Headquarters</a> </li>
+            <li> <a href="#"> +1 321 300 0087</a> </li>
+        </ul>
+
+        <ul>
+
+            <li> <a href="#"> sales@teaminternational.com </a> </li>
+            <li> <a href="#"> 1145 TownPark Avenue Suite 2201 </a> </li>
+            <li> <a href="#"> Lake Mary, FL 32746 </a> </li>
+        </ul>
+
+
+
+    </nav>
+</div>
+    <div class="form">
+        
+    <button class="go">
+        <form action="none" method="post"> 
+        <input type="search"  placeholder="Update in your inbox..." class="imput">
+    </form>
+</button> 
+    
+    <h6>
+        Copyright TEAM International Services Inc.
+        All Rights Reserved
+        Privacy Policy
+    </h6>
+        
+    </div>
+    </section>
+
+
+</footer>        
+
+
+</body>
+</html>

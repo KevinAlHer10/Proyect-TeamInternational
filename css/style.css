@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #242E52;
+    line-height: 176.1%; 
+    font-size:  20px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 165px;
+
+}
+header div{
+    display: flex;
+    
+
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+header nav ul li{
+    margin-left: 28px;
+           
+}
+
+button {
+
+    background: #F3603B;
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 10px 50px;
+    border: none;
+
+   
+}
+button a.button_orange {
+    color:  #ffff;
+    font-weight: normal;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.hamburguesa {
+        display: none;
+}
+
+.home {
+    
+    display: flex;
+    padding:  65px 90px 120px 165px;
+    width: 80%;
+    justify-content: space-between;
+    gap: 100px;
+    /* margin-left: 12%;
+    margin-right: 10%; */
+
+    
+    
+
+}
+
+.frase_home h1 {
+    
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #232C50;
+    margin-bottom: 28px;
+}
+
+.frase_home p {    
+    width: 340px;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+font-weight: bold;
+color: #000000;
+margin-bottom: 28px;
+font-weight: bold;
+
+}
+.ilustracion2 {
+    display: none;
+}
+
+
+.sobre_nosotros {
+    display: flex;
+    padding:  0px 90px 120px 165px;
+width: 100%;
+justify-content: space-between;
+gap: 150px;
+flex-direction: row;
+}
+
+.frame_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.frame_left h2 {
+    align-items: center;
+    color: #232851;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 36px;
+width: 400px;
+
+}
+.frame_left p {
+    width: 337px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+.frame_rigth {
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+gap: 20px;
+bottom: 18px;
+margin-top: 18px;
+}
+
+.botton{
+    color: white;
+    box-shadow: none;
+}
+
+.titulo_frame {
+    display: flex;
+    margin-bottom: 18px;
+    color: #323851;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.parrafo_frame {
+    padding-left: 80px;
+    padding-right: 20px;
+    width: 458px;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 13px;
+    
+}
+
+.titulo_testimonio {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    padding: 20px 100px 74px;
+        
+}
+/* hasta aca esta subido al git  */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: body-bg;
+    font-family: fuente-principal;
+}
+
+a {
+    text-decoration: none;
+    color: color-principal;
+    transition: .5s ease;
+    
+    hover: color black ;
+    
+}
+
+.contenedor-formularios {
+    background: rgba(form-bg,.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: br;
+    box-shadow: 0 4px 10px 4px rgba(form-bg,.3);
+}
+
+.contenedor-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    
+    after {
+        content none;
+        display table;
+        clear both;
+    }
+  
+    li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        background: rgba(grey-light,.25);
+        color: grey-ligth;
+        font-size: 20px;
+        float: left;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s ease;
+        
+        hover {
+            background-color: ;
+            color: black;
+        }
+    }
+    
+    .active a {
+        background: color-principal;
+        color: black;
+    }
+}
+
+.contenido-tab > div:last-child {
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: thin;
+    margin: 0 0 40px;
+}
+
+label {
+    position: absolute;
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(black,.5);
+    transition: all 0.25s ease;
+    pointer-events: none;
+    font-size: 22px;
+    
+    req {
+        margin: 4px;
+        color: white;
+    }
+}
+
+label.active {
+    transform: translateY(50px);
+    left: 2px;
+    font-size: 14px;
+    
+}
+
+label.highlight {
+    color: gray;
+}
+
+input {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid grey-light;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    border-radius: 0;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+
+}
+
+.contenedor-input {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.fila-arriba {
+    *after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    div {
+        float: left;
+        width: 48%;
+        margin-right: 4%;
+
+    }
+}
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 2rem;
+    background: color-principal;
+    color: black;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    
+    hover, focus {
+        background-color: white;
+    }
+}
+
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/* Mediaqueries */
+@media screen and (max-width: 500px) {
+    .fila-arriba {
+        div {
+            width: 100%;
+
+            &:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contenedor-tabs {
+        li a {
+            width: 100%;
+        }
+    }
+}
+
+
+
+.button_testimonios {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.rectangulo {
+    margin-top: 180px;
+    display: inline-flex;
+    padding: 30px 0;
+    background-color: #F3613C;
+    justify-content: space-around;
+    width: 100%;       
+}
+.rectangulo h2 {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    max-width: 430px;
+    font-size: 30px;    
+
+
+}
+.button_rectangulo{
+   
+    padding-top: 30px;
+}
+
+.button_rectangulo a{
+    color: #F3603B;
+    background: white;
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.footer {
+    display: flex;
+    background: #1E1E26;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    gap: 30px;
+}
+
+
+
+.lista_footer {
+
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+
+
+}
+.lista_footer ul{
+
+    list-style-type: none;
+    color: white;
+}
+
+.lista_footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 176.1%; 
+    font-size:  15px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 100px; 
+}
+input
+{
+    border: none;
+    padding: 0;
+} 
+.go {
+    background-color: white;
+    border-radius: none;
+}
+
+h6 {
+    text-align: right;
+    color: #8C8C94;
+    font-size: 14px;
+}
+
+@media screen and (max-device-width:375px) {
+
+    header{
+        padding-left: 10px;
+    }
+    header nav {
+        display: none;
+        
+    }
+    
+    header button {
+        display: none;
+    }
+.hamburguesa {
+    display: flex;
+    padding-left: 100px;
+}
+
+.home {
+    flex-direction: column-reverse;
+
+    padding-left: 10px;
+
+}
+.frase_home h1{
+    width: 370px;
+}
+.frase_home p{
+    width: 300px;
+}
+.ilustracion1 {
+    display: none;
+}
+.ilustracion2 {
+    display: flex;
+}
+.sobre_nosotros{
+    flex-direction: column;
+    padding-left: 10px;
+    width: 370px;
+}
+.frame_left{
+    width: 370px;
+}
+.titulo_testimonio{
+    text-align: center;
+}
+.testimonio {
+    display: flex;
+    flex-direction: column;
+}
+
+}
